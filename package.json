@@ -21,5 +21,13 @@
   "devDependencies": {
     "debug": "^2.2.0",
     "nodemon": "^1.3.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dweinstein/node-ec2-instances.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dweinstein/node-ec2-instances/issues"
+  },
+  "homepage": "https://github.com/dweinstein/node-ec2-instances#readme"
 }
