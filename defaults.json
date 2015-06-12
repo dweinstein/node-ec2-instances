@@ -1,0 +1,9 @@
+{
+  "aws": {
+    "apiVersion": "2015-04-15",
+    "sslEnabled": true,
+    "accessKeyId": "badaccesskeyid",
+    "secretAccessKey": "badsecretaccesskey",
+    "region": "us-east"
+  }
+}
