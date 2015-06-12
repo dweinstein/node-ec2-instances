@@ -1,6 +1,6 @@
 {
   "name": "ec2-instances",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "get instance from ec2",
   "main": "index.js",
   "scripts": {
