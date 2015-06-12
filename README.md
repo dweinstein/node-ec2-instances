@@ -13,7 +13,32 @@ Assumes you've [tagged](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/Using
 ```
 
 # EXAMPLE
-See [here](example.js)
+See [here](example.js) for code that outputs:
+
+```javascript
+{
+  production:
+   [ { ip: '10.10.173.1',
+       name: 'myapp-prod-services01',
+       environment: 'production' },
+     { ip: '10.10.173.2',
+       name: 'myapp-prod-thing',
+       environment: 'production' },
+     { ip: '10.10.173.3',
+       name: 'myapp-prod-thing2',
+       environment: 'production' } ]
+  development:
+   [ { ip: '10.10.171.1',
+       name: 'myapp-dev-services01',
+       environment: 'development' },
+     { ip: '10.10.171.2',
+       name: 'myapp-dev-hatchery',
+       environment: 'development' },
+     { ip: '10.10.171.3',
+       name: 'myapp-dev-appnode01',
+       environment: 'development' } ]
+}
+```
 
 # CONFIGURATION (ec2rc)
 
