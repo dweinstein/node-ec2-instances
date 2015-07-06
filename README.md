@@ -46,13 +46,13 @@ Will inspect `~/.ec2rc` for config info. [These](defaults.json) are defaults.
 
 Uses [rc](https://github.com/dominictarr/rc) [standards](https://github.com/dominictarr/rc#standards).
 
-## ec2_aws__sslEnabled
-defaults to `true`
+## example config
+For example in `~/.ec2rc` you'd want to have somethning like his
 
-## ec2_aws__accessKeyId
-
-## ec2_aws__secretAccessKey
-
-## ec2_aws__region
-defaults to `"us-west-2"`
-
+```ini
+[aws]
+sslEnabled=true
+accessKeyId=access-key-here
+secretAccessKey=secret-key-here
+region=us-west-2
+```
