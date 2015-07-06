@@ -4,6 +4,6 @@
     "sslEnabled": true,
     "accessKeyId": "badaccesskeyid",
     "secretAccessKey": "badsecretaccesskey",
-    "region": "us-east"
+    "region": "us-west-2"
   }
 }
