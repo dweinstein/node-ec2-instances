@@ -47,7 +47,7 @@ Will inspect `~/.ec2rc` for config info. [These](defaults.json) are defaults.
 Uses [rc](https://github.com/dominictarr/rc) [standards](https://github.com/dominictarr/rc#standards).
 
 ## example config
-For example in `~/.ec2rc` you'd want to have somethning like his
+For example in `~/.ec2rc` you'd want to have something like this:
 
 ```ini
 [aws]
